@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+         display: inline-block;
+    }
+
+    .L_VPN{
+        // display: flex;
+        padding: 50px 150px;
+        font-size: 20px;
+        line-height: 24px;
+        line-height: 100%;
+        text-align: left;
+        // justify-content: space-between;
+        gap: 5px;
+        
+    }
+    .options{
+        // display: flex;
+        // padding: 58px 5px;
+        gap: 10px;
+       justify-content: space-around;
+        border: none ;
+        text-align: center;
+        font-size: 16px;
+        background-color: white;
+        color: #4F5665;
+
+    }
+    .sign-in_option{
+        // display: flex;
+        // padding: 50px 150px;
+       
+        gap: 5px;
+        border: none;
+        text-align: left;
+        background-color: white;
+    }
+    .btn{
+        padding-right: 150px;
+    }
+    .sign-in-btn{
+        // display: flex;
+        border-radius: 8px;
+        border-color: #F53855;
+        color: #F53855;
+        border-width: 1px;
+        padding: 8px 20px;
+        font-size: 800;
+         
+    }
+}
+
+
